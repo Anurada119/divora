@@ -1,0 +1,19 @@
+$gray : #666;
+
+// colors
+
+$green : #1AE2A4;
+$dark-gray: #242424;
+
+$black: #000;
+$white: #fff;
+
+
+$text-basic : #707070;
+
+//mixings
+
+@mixin container{
+    max-width: 1144px;
+    margin: 0 auto;
+}
