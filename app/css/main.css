@@ -118,6 +118,10 @@ p {
   margin: 0 auto;
 }
 
+.hd-width {
+  max-width: 1920px;
+}
+
 .info-header-wrap {
   background: #fff;
 }
@@ -168,19 +172,32 @@ p {
 .main-area {
   display: flex;
   background: #242424;
+  padding: 0;
 }
 
 .main-section {
   display: flex;
-  padding: 0 1rem;
+  padding: 0rem;
 }
 
 .main-section .left {
   width: 30%;
+  padding: 1rem 1rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.main-section .left-inenr {
+  padding: 1rem 1rem 1rem 2rem;
 }
 
 .main-section .right {
   width: 70%;
+}
+
+.main-section > div {
+  padding: 0;
 }
 
 .about-line {
@@ -207,7 +224,7 @@ p {
 }
 
 .stat-box .stat .stat-number {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
   display: block;
   color: #fff;
@@ -255,7 +272,7 @@ p {
   padding: 0;
   background: #fff;
   display: flex;
-  height: 320px;
+  height: 250px;
 }
 
 .bg-boxes {
@@ -370,6 +387,17 @@ p {
 .misson,
 .vision-mission {
   background: #1CD49B;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,1e5799+48,7db9e8+52,7db9e8+100 */
+  background: #1e5799;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #1AE2A4 0%, #1AE2A4 48%, #1CD49B 52%, #1CD49B 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #1AE2A4 0%, #1AE2A4 48%, #1CD49B 52%, #7db9e8 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #1AE2A4 0%, #1AE2A4 48%, #1CD49B 52%, #1CD49B 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1AE2A4', endColorstr='#1CD49B', GradientType=1);
+  /* IE6-9 */;
 }
 
 .misson h3,
@@ -386,6 +414,10 @@ p {
 .vision h3,
   .vision p {
   color: #fff;
+}
+
+.misson {
+  background: #1CD49B;
 }
 
 .vision,
@@ -525,6 +557,45 @@ footer {
   background: #1AE2A4;
 }
 
+footer .centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .f-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .f-nav-links li {
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+footer .f-nav-links li a {
+  color: #fff;
+}
+
+footer .address,
+  footer .phone,
+  footer .email {
+  color: #fff;
+}
+
+footer .davora-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+footer .social-links svg {
+  fill: #fff;
+}
+
+footer .social-links li:last-child {
+  padding-right: 0 !important;
+}
+
 .footer-inner {
   padding: 80px 0 40px;
 }
@@ -544,4 +615,31 @@ footer {
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-section .left-inenr {
+    padding: 0 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-line,
+  .second-line,
+  .main-info {
+    text-align: center;
+  }
+
+  .about-line {
+    padding-bottom: 20px;
+  }
+
+  .stat-box {
+    margin-bottom: 50px;
+  }
+
+  .social-links {
+    margin-bottom: 0;
+  }
 }

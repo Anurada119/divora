@@ -1,6 +1,6 @@
 @import 'var';
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
@@ -8,72 +8,72 @@
     box-sizing: border-box;
 }
 
-.no-margin-overflow{
+.no-margin-overflow {
     margin-left: 0;
     margin-right: 0;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     font-size: 40px;
     font-weight: 700;
     margin: 0;
 }
 
-h2{
+h2 {
     font-size: 36px;
     font-weight: 600;
 }
 
-h3{
+h3 {
     font-size: 30px;
     font-weight: 500;
 }
 
-h4{
+h4 {
     font-size: 24px;
     font-weight: 500;
 }
 
-p{
+p {
     font-size: 12px;
     font-weight: 500;
 }
 
-.special-para{
+.special-para {
     font-size: 14px;
 }
 
-.large-para{
+.large-para {
     font-size: 16px;
 }
 
-.white-text{
+.white-text {
     color: $white;
 }
 
-.green-text{
+.green-text {
     color: $green;
 }
 
-.bolder-text{
+.bolder-text {
     font-weight: 700;
 }
 
-.sub-section-header{
+.sub-section-header {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 24px;
 }
 
-.btn{
+.btn {
     background: $green;
     color: $white;
     border-radius: 0;
@@ -82,29 +82,32 @@ p{
     text-transform: uppercase;
     outline: none;
     border: none;
+
     &:hover,
-    &:active{
+    &:active {
         background: darken($color: $green, $amount: 10%) !important;
     }
-    &:focus{
+
+    &:focus {
         outline: none !important;
         box-shadow: none;
     }
-    &.secondary{
+
+    &.secondary {
         padding: 1rem 1rem;
         font-size: 12px;
     }
 }
 
-.info-header{
+.info-header {
     background: $white;
     height: 32px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 0 1.5rem;
-    
-    a{
+
+    a {
         color: $text-basic;
         font-size: 14px;
         font-weight: 600;
@@ -113,52 +116,58 @@ p{
 }
 
 
-.max-width{
+.max-width {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
 }
 
-.info-header-wrap{
+.hd-width {
+    max-width: 1920px;
+}
+
+.info-header-wrap {
     background: $white;
 }
 
 .nav-wrap,
-.navbar{
+.navbar {
     background: $green;
 }
 
-.navbar .nav-link{
+.navbar .nav-link {
     font-size: 12px;
 }
 
-.navbar{
+.navbar {
     //max-height: 80px;
 
-    .navbar-brand{
+    .navbar-brand {
         padding: 0;
         display: flex;
         width: 70px;
         height: 70px;
-        img{
+
+        img {
             height: 100%;
         }
     }
 
-    .nav-item{
+    .nav-item {
         margin: 0 1rem;
-        &.active,
-        &:hover{
-            
 
-            .nav-link{
+        &.active,
+        &:hover {
+
+
+            .nav-link {
                 color: $green;
                 background: $white;
             }
         }
     }
 
-    .nav-link{
+    .nav-link {
         color: $white;
         font-weight: 600;
         text-transform: uppercase;
@@ -167,61 +176,76 @@ p{
     }
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background: url('../images/menu.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.main-area{
+.main-area {
     display: flex;
     //min-height: calc(100vh - 112px);
     background: $dark-gray;
+    padding: 0;
 }
 
-.main-section{
+.main-section {
     display: flex;
-    padding: 0 1rem;
+    padding: 0rem;
 
 
-    .left{
+    .left {
         width: 30%;
+        padding: 1rem 1rem 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
 
-    .right{
+    .left-inenr {
+        padding: 1rem 1rem 1rem 2rem;
+    }
+
+    .right {
         width: 70%;
     }
 }
-.about-line{
+
+.main-section>div {
+    padding: 0;
+}
+
+.about-line {
     padding-top: 80px;
     padding-bottom: 30px;
     font-size: 18px;
-    span{
+
+    span {
         color: $green;
     }
 }
 
 
-.stat-box{
+.stat-box {
     background: $green;
     display: inline-flex;
     margin-bottom: 60px;
 
 
-    .stat{
+    .stat {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0.35rem .5rem;
 
-        .stat-number{
-            font-size: 24px;
+        .stat-number {
+            font-size: 32px;
             font-weight: 700;
             display: block;
             color: $white;
         }
 
-        .stat-name{
+        .stat-name {
             font-size: 10px;
             text-transform: uppercase;
             color: $white;
@@ -230,16 +254,17 @@ p{
     }
 }
 
-.social-links{
+.social-links {
     margin-bottom: 30px;
-    ul{
+
+    ul {
         display: flex;
 
-        li{
+        li {
             padding-right: 1rem;
 
-            a{
-                svg{
+            a {
+                svg {
                     width: 20px;
                     height: 20px;
                 }
@@ -248,36 +273,37 @@ p{
     }
 }
 
-.second-line{
+.second-line {
     font-size: 28px;
 }
 
-.main-info{
+.main-info {
     width: 80%;
     margin-bottom: 40px;
 }
 
-.services-boxes{
+.services-boxes {
     margin-right: 0;
     margin-left: 0;
 }
 
-.services-boxes > div{
+.services-boxes>div {
     padding: 0;
     background: $white;
     display: flex;
-    height: 320px;
+    height: 250px;
 }
 
-.bg-boxes{
+.bg-boxes {
     overflow: hidden;
     position: relative;
     flex-direction: column;
     justify-content: flex-end;
 
-    .background{
+    .background {
         position: absolute;
-        &:after{
+
+        &:after {
             content: '';
             background: rgba($color: #2C2C2C, $alpha: 0.7);
             width: 100%;
@@ -289,58 +315,59 @@ p{
             bottom: 0;
         }
     }
-    img{
+
+    img {
         height: 100%;
     }
 
     .service-name,
-    .service-tag-line{
+    .service-tag-line {
         color: $white;
         z-index: 2;
         padding: 0 0.5rem 0 1rem;
     }
 
-    .service-name{
+    .service-name {
         font-size: 30px;
         line-height: 28px;
     }
 
-    .service-tag-line{
+    .service-tag-line {
         display: block;
         margin-bottom: 30px;
     }
 }
 
-.about-services-inner{
+.about-services-inner {
     padding: 100px 0rem 30px;
     margin-right: 0px;
     margin-left: 0px;
 
-    .shadow-sm{
+    .shadow-sm {
         box-shadow: none;
     }
 }
 
-.about-services-inner > div{
+.about-services-inner>div {
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.card{
+.card {
     border: none;
 }
 
-.card-body{
+.card-body {
     padding: 1.125rem 0 0 0;
 }
 
-.card-img{
-    img{
+.card-img {
+    img {
         width: 100%;
     }
 }
 
-.davora-ent{
+.davora-ent {
     background: url(../images/abt_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -352,19 +379,20 @@ p{
     margin-right: 0;
 }
 
-.abt-divora-ent > div {
+.abt-divora-ent>div {
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.abt-img{
+.abt-img {
     position: relative;
     height: 100%;
-    .img1{
+
+    .img1 {
         width: 70%;
     }
 
-    .img2{
+    .img2 {
         width: 50%;
         position: absolute;
         z-index: 2;
@@ -373,41 +401,58 @@ p{
     }
 }
 
-.abt-header{
+.abt-header {
     margin-bottom: 40px;
 }
 
 .misson,
-.vision-mission{
+.vision-mission {
     background: #1CD49B;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,1e5799+48,7db9e8+52,7db9e8+100 */
+    background: #1e5799;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #1AE2A4 0%, #1AE2A4 48%, #1CD49B 52%, #1CD49B 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1AE2A4 0%, #1AE2A4 48%, #1CD49B 52%, #7db9e8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1AE2A4 0%, #1AE2A4 48%, #1CD49B 52%, #1CD49B 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1AE2A4', endColorstr='#1CD49B', GradientType=1);
+    /* IE6-9 */
+
     h3,
-    p{
+    p {
         color: $white;
     }
 }
 
-.vision{
+.vision {
     background: #1AE2A4;
+
     h3,
-    p{
+    p {
         color: $white;
     }
+}
+
+.misson{
+    background: #1CD49B;
 }
 
 .vision,
-.misson{
+.misson {
     padding: 60px 80px;
 
-    h3{
+    h3 {
         margin-bottom: 30px;
     }
 }
 
-.unido{
+.unido {
     background: #383838;
 }
 
-.unido-inner{
+.unido-inner {
     padding: 100px 0;
     display: flex;
     justify-content: center;
@@ -418,32 +463,33 @@ p{
     background-position: 50% 50%;
     background-size: cover;
 
-    img{
+    img {
         margin-bottom: 30px;
     }
 }
 
-.contact{
+.contact {
     background: $black;
 }
 
-.location{
+.location {
     height: 100%;
     overflow: hidden;
-    img{
+
+    img {
         width: 100%;
     }
 }
 
-.contact-inner{
+.contact-inner {
     padding: 100px 0 40px;
 
-    input{
+    input {
         height: 48px;
     }
 
     input,
-    textarea{
+    textarea {
         background: #848484;
         border: none;
         border-radius: 0;
@@ -452,30 +498,32 @@ p{
         padding: 1rem;
         width: 100%;
         text-transform: uppercase;
-        &:placeholder{
+
+        &:placeholder {
             color: $white;
         }
     }
 
-    textarea{
+    textarea {
         height: 100px;
     }
 }
 
-.find-us{
+.find-us {
     color: $white;
     margin-top: 30px;
 }
 
 .address,
 .phone,
-.email{
+.email {
     padding-left: 30px;
 }
 
-.address{
+.address {
     position: relative;
-    &:before{
+
+    &:before {
         content: '';
         position: absolute;
         width: 20px;
@@ -487,9 +535,10 @@ p{
     }
 }
 
-.phone{
+.phone {
     position: relative;
-    &:before{
+
+    &:before {
         content: '';
         position: absolute;
         width: 20px;
@@ -501,9 +550,10 @@ p{
     }
 }
 
-.email{
+.email {
     position: relative;
-    &:before{
+
+    &:before {
         content: '';
         position: absolute;
         width: 24px;
@@ -516,30 +566,99 @@ p{
     }
 }
 
-.contact-header{
+.contact-header {
     margin-bottom: 40px;
 }
 
-footer{
+footer {
     background: $green;
+
+    .centered{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .f-nav-links{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: 50%;
+            padding-bottom: 20px;
+            a{
+                color: $white;
+            }
+        }
+    }
+
+    .address,
+    .phone,
+    .email{
+        color: $white;
+    }
+
+    .davora-logo{
+        width: 120px;
+        margin-bottom: 20px;
+    }
+
+    .social-links{
+        svg{
+            fill: $white;
+        }
+
+        li:last-child{
+            padding-right: 0 !important;
+        }
+    }
 }
 
-.footer-inner{
+.footer-inner {
     padding: 80px 0 40px;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: $white;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
     color: $white;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
     color: $white;
-  }
+}
 
 @import 'media';
 
+@media only screen and (max-width:1024px) {
+    .main-section .left-inenr {
+        padding: 0 0 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-line,
+    .second-line,
+    .main-info {
+        text-align: center;
+    }
+
+    .about-line {
+        padding-bottom: 20px;
+    }
+
+    .stat-box {
+        margin-bottom: 50px;
+    }
+
+    .social-links {
+        margin-bottom: 0;
+    }
+}
