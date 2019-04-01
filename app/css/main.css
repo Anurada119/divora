@@ -617,6 +617,20 @@ footer .social-links li:last-child {
   color: #fff;
 }
 
+.dropdown-menu.show {
+  background: #1AE2A4;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu.show a {
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 1024px) {
   .main-section .left-inenr {
     padding: 0 0 2rem 0;
@@ -641,5 +655,71 @@ footer .social-links li:last-child {
 
   .social-links {
     margin-bottom: 0;
+  }
+
+  .vision-mission {
+    padding: 0;
+  }
+
+  .abt-divora-ent > div {
+    margin-bottom: 50px;
+  }
+
+  .navbar .nav-item.active .nav-link, .navbar .nav-item:hover .nav-link {
+    background: #1AE2A4;
+    color: #fff;
+  }
+
+  .navbar-nav.ml-auto.mobile {
+    text-align: center;
+  }
+
+  .dropdown-menu.show {
+    text-align: center;
+  }
+
+  footer .f-nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .f-nav-links li a {
+    font-size: 12px;
+  }
+
+  .address:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(../images/location.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* left: 0px; */
+    top: -24px;
+    left: 50%;
+    margin-left: -10px;
+  }
+
+  .phone:before {
+    top: -24px;
+    left: 50%;
+    margin-left: -10px;
+  }
+
+  .email:before {
+    top: -24px;
+    left: 50%;
+    margin-left: -15px;
+  }
+
+  .address, .phone, .email {
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  footer .f-nav-links {
+    margin-bottom: 48px;
   }
 }
