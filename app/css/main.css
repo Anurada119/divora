@@ -722,4 +722,14 @@ footer .social-links li:last-child {
   footer .f-nav-links {
     margin-bottom: 48px;
   }
+
+  .info-header {
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .info-header a {
+    margin-bottom: 0;
+    padding: 0;
+  }
 }
