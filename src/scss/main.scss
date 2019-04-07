@@ -187,6 +187,7 @@ p {
     //min-height: calc(100vh - 112px);
     background: $dark-gray;
     padding: 0;
+    position: relative;
 }
 
 .main-section {
@@ -302,6 +303,9 @@ p {
 
     .background {
         position: absolute;
+        width: 100%;
+        min-height: 100%;
+        top: -15%;
 
         &:after {
             content: '';
@@ -318,6 +322,7 @@ p {
 
     img {
         height: 100%;
+        width: 100%;
     }
 
     .service-name,
@@ -647,6 +652,103 @@ footer {
     color: $white;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+.services-hero{
+    height: 40vh;
+    overflow: hidden;
+
+    .main-section{
+        align-items: flex-end;
+        height: 100%;
+        padding-bottom: 60px;
+    }
+}
+
+.page-banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+
+    &:after {
+        content: '';
+        background: rgba($color: #2C2C2C, $alpha: 0.7);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}
+
+.banner-info{
+    z-index: 2;
+
+    h1{
+        font-size: 60px;
+        color: $white;
+        font-weight: 600;
+        padding: 20px 0 10px;
+    }
+
+    h3,p{
+        color: $white;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+.about-service{
+    background: $service-color-1;
+    padding: 40px 0;
+
+    h3{
+        font-weight: 600;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .special-para{
+        color: $white;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.7;
+    }
+
+    .btn{
+        background: $white;
+        color: $service-color-1;
+    }
+
+    .about-service-img{
+        width: 100%;
+        min-height: 300px;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    
+}
+
+.service-projects{
+    padding: 40px 0;
 }
 
 @import 'media';

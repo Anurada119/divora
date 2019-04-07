@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
 
@@ -83,21 +84,80 @@
             </div>
         </header>
 
-        <section class="container-fluid main-area fade-up">
+        <section class="container-fluid main-area fade-up services-hero">
             <div class="page-banner">
-
+                <img src="images/service_bg.jpg" alt="">
             </div>
-            <div class="max-width hd-width">
+            <div class="max-width">
                 <div class="row no-margin-overflow main-section">
-                    <div class="service-icon">
-                        <img src="images/hydro-power.png" alt="">
+                    <div class="banner-info">
+                        <div class="service-icon">
+                            <img src="images/hydro-power.png" alt="">
+                        </div>
+                        <h1 class="service-name">Hydro Power Generation</h1>
+                        <h3 class="service-tag">Power and Renewable Energy</h3>
+                        <p class="service-dec">
+                            Provide hydro, dendro power management
+                            solutions to the world.
+                        </p>
                     </div>
-                    <h1 class="service-name">Hydro Power Generation</h1>
-                    <h3 class="service-tag">Power and Renewable Energy</h3>
-                    <p class="service-dec">
-                        Provide hydro, dendro power management 
-                        solutions to the world.
-                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid about-service">
+            <div class="max-width">
+                <div class="row no-margin-overflow">
+                    <div data-aos="fade-right" data-aos-easing="ease-in-cube" data-aos-duration="1500" class="col-md-6">
+                        <h3 class="white-text">What is Hydro Power?</h3>
+                        <p class="special-para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae libero molestie,
+                            aliquet nibh eu, euismod massa. Morbi efficitur ut nisi ac fermentum. Aenean magna libero,
+                            varius vitae turpis at, iaculis placerat quam. Vivamus arcu lorem, vehicula fringilla
+                            malesuada sit amet, volutpat sed nisi. Vestibulum lectus ligula, mollis vitae ultricies non,
+                            consequat sed leo.
+                        </p>
+                        <p class="special-para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae libero molestie,
+                            aliquet nibh eu, euismod massa. Morbi efficitur ut nisi ac fermentum. Aenean magna libero,
+                            varius vitae turpis at, iaculis placerat quam. Vivamus arcu lorem, vehicula fringilla.
+                        </p>
+
+                        <a href="#" class="btn secondary btn-primary my-2">Read More</a>
+                    </div>
+                    <div data-aos="fade-left" data-aos-easing="ease-in-cube" data-aos-duration="1500" class="col-md-6">
+                        <div class="about-service-img">
+                            <img src="images/about_service.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid service-projects">
+            <div class="max-width">
+                <div class="col-md-12">
+                    <h2>Our <span>Hydro Power Generation</span> Projects</h2>
+                </div>
+                <div class="row no-margin-overflow">
+                    <div data-aos="fade-right" data-aos-easing="ease-in-cube" data-aos-duration="1500" class="col-md-6">
+                        <p class="special-para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae libero molestie,
+                            aliquet nibh eu, euismod massa. Morbi efficitur ut nisi ac fermentum. Aenean magna libero,
+                            varius vitae turpis at, iaculis placerat quam. Vivamus arcu lorem, vehicula fringilla
+                            malesuada sit amet, volutpat sed nisi. Vestibulum lectus ligula, mollis vitae ultricies non,
+                            consequat sed leo.
+                        </p>
+                    </div>
+                    <div data-aos="fade-left" data-aos-easing="ease-in-cube" data-aos-duration="1500" class="col-md-6">
+                        <p class="special-para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae libero molestie,
+                            aliquet nibh eu, euismod massa. Morbi efficitur ut nisi ac fermentum. Aenean magna libero,
+                            varius vitae turpis at, iaculis placerat quam. Vivamus arcu lorem, vehicula fringilla
+                            malesuada sit amet, volutpat sed nisi. Vestibulum lectus ligula, mollis vitae ultricies non,
+                            consequat sed leo.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -335,7 +395,7 @@
                                                 d="m256 146.019531c-60.640625 0-109.980469 49.335938-109.980469 109.980469 0 60.640625 49.339844 109.980469 109.980469 109.980469 60.644531 0 109.980469-49.339844 109.980469-109.980469 0-60.644531-49.335938-109.980469-109.980469-109.980469zm0 0" />
                                             <path
                                                 d="m399.34375 96.300781c-6.257812 0-11.351562 5.09375-11.351562 11.351563 0 6.257812 5.09375 11.351562 11.351562 11.351562 6.261719 0 11.355469-5.089844 11.355469-11.351562 0-6.261719-5.09375-11.351563-11.355469-11.351563zm0 0" />
-                                            </svg>
+                                        </svg>
                                     </a>
                                 </li>
 
@@ -370,7 +430,7 @@
                                                 d="m224.113281 303.960938 83.273438-47.960938-83.273438-47.960938zm0 0" />
                                             <path
                                                 d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm159.960938 256.261719s0 51.917969-6.585938 76.953125c-3.691406 13.703125-14.496094 24.507812-28.199219 28.195312-25.035156 6.589844-125.175781 6.589844-125.175781 6.589844s-99.878906 0-125.175781-6.851562c-13.703125-3.6875-24.507813-14.496094-28.199219-28.199219-6.589844-24.769531-6.589844-76.949219-6.589844-76.949219s0-51.914062 6.589844-76.949219c3.6875-13.703125 14.757812-24.773437 28.199219-28.460937 25.035156-6.589844 125.175781-6.589844 125.175781-6.589844s100.140625 0 125.175781 6.851562c13.703125 3.6875 24.507813 14.496094 28.199219 28.199219 6.851562 25.035157 6.585938 77.210938 6.585938 77.210938zm0 0" />
-                                            </svg>
+                                        </svg>
 
                                     </a>
                                 </li>
@@ -416,17 +476,19 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        </script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+
     </script>
     <script src="js/main.js"></script>
 </body>

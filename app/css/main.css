@@ -173,6 +173,7 @@ p {
   display: flex;
   background: #242424;
   padding: 0;
+  position: relative;
 }
 
 .main-section {
@@ -284,6 +285,9 @@ p {
 
 .bg-boxes .background {
   position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: -15%;
 }
 
 .bg-boxes .background:after {
@@ -300,6 +304,7 @@ p {
 
 .bg-boxes img {
   height: 100%;
+  width: 100%;
 }
 
 .bg-boxes .service-name,
@@ -629,6 +634,99 @@ footer .social-links li:last-child {
   color: #fff;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+.services-hero {
+  height: 40vh;
+  overflow: hidden;
+}
+
+.services-hero .main-section {
+  align-items: flex-end;
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.page-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 100%;
+}
+
+.page-banner:after {
+  content: '';
+  background: rgba(44, 44, 44, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.page-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-info {
+  z-index: 2;
+}
+
+.banner-info h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 0 10px;
+}
+
+.banner-info h3, .banner-info p {
+  color: #fff;
+}
+
+.banner-info p {
+  font-size: 18px;
+}
+
+.about-service {
+  background: #EA993A;
+  padding: 40px 0;
+}
+
+.about-service h3 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.about-service .special-para {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.about-service .btn {
+  background: #fff;
+  color: #EA993A;
+}
+
+.about-service .about-service-img {
+  width: 100%;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+.about-service .about-service-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.service-projects {
+  padding: 40px 0;
 }
 
 @media only screen and (max-width: 1024px) {
