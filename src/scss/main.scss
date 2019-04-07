@@ -912,7 +912,7 @@ footer {
     padding: 80px 0;
 
     h3{
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         span{
             color: $service-color-1;
         }
@@ -920,6 +920,36 @@ footer {
 
     .about-services-inner{
         padding: 20px 0 20px;
+    }
+}
+
+.service-1{
+    .service-name{
+        color: $service-color-1;
+    }
+
+    .btn{
+        background: $service-color-1;
+    }
+}
+
+.service-2{
+    .service-name{
+        color: $service-color-2;
+    }
+
+    .btn{
+        background: $service-color-2;
+    }
+}
+
+.service-3{
+    .service-name{
+        color: $service-color-3;
+    }
+
+    .btn{
+        background: $service-color-3;
     }
 }
 

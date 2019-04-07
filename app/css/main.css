@@ -887,7 +887,7 @@ footer .social-links li:last-child {
 }
 
 .blog-posts-external h3 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .blog-posts-external h3 span {
@@ -896,6 +896,30 @@ footer .social-links li:last-child {
 
 .blog-posts-external .about-services-inner {
   padding: 20px 0 20px;
+}
+
+.service-1 .service-name {
+  color: #EA993A;
+}
+
+.service-1 .btn {
+  background: #EA993A;
+}
+
+.service-2 .service-name {
+  color: #529BF0;
+}
+
+.service-2 .btn {
+  background: #529BF0;
+}
+
+.service-3 .service-name {
+  color: #19C3D6;
+}
+
+.service-3 .btn {
+  background: #19C3D6;
 }
 
 @media only screen and (max-width: 1024px) {
