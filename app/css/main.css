@@ -645,7 +645,7 @@ footer .social-links li:last-child {
 }
 
 .services-hero {
-  height: 40vh;
+  height: 50vh;
   overflow: hidden;
 }
 
@@ -920,6 +920,100 @@ footer .social-links li:last-child {
 
 .service-3 .btn {
   background: #19C3D6;
+}
+
+.service-4 .service-name {
+  color: #F78585;
+}
+
+.service-4 .btn {
+  background: #F78585;
+}
+
+.story-of {
+  color: #1AE2A4;
+  font-size: 34px;
+  padding: 0;
+}
+
+.service-tag {
+  color: #fff;
+  width: 80%;
+  font-weight: 300;
+}
+
+.service-dec {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.read-stories {
+  padding: 40px 0;
+  background: #2C2C2C;
+}
+
+.read-stories h1 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.line-right {
+  border-right: 1px solid rgba(112, 112, 112, 0.4);
+  padding-right: 30px;
+}
+
+.side-layout {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.side-layout .card-img {
+  width: 40%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.side-layout .card-img img {
+  height: 100%;
+  width: auto;
+}
+
+.side-layout .card-body {
+  padding-left: 10px;
+  padding-top: 0;
+}
+
+.blog-posts .card-img {
+  height: 260px;
+  overflow: hidden;
+}
+
+.blog-posts .card-img img {
+  height: 100%;
+}
+
+.cat-select {
+  padding: 0 15px;
+}
+
+.cat-select a {
+  background: transparent;
+  color: #2C2C2C;
+  padding: 0;
+}
+
+.cat-select a:hover {
+  background: transparent !important;
+  color: #2C2C2C !important;
+}
+
+.cat-select .dropdown-menu {
+  padding: 0 16px;
+}
+
+.cat-select .dropdown-menu a {
+  padding: 8px 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1235,5 +1329,70 @@ footer .social-links li:last-child {
 
   .service-3 .btn {
     background: #19C3D6;
+  }
+
+  .story-of {
+    font-size: 24px;
+    padding: 30px 0 0 0;
+  }
+
+  .service-tag {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .service-dec {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .read-stories {
+    padding: 30px 0;
+  }
+
+  .read-stories h1 {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .line-right {
+    border-right: none;
+    padding-right: 0px;
+  }
+
+  .side-layout {
+    flex-direction: column;
+    padding-top: 0px;
+  }
+
+  .side-layout .card-img {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+  }
+
+  .side-layout .card-img img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .side-layout .card-body {
+    padding-left: 0px;
+    padding-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .blog-posts .card-img {
+    height: 260px;
+    overflow: hidden;
+  }
+
+  .blog-posts .card-img img {
+    height: 100%;
+  }
+
+  .blog-posts .card-body {
+    margin-bottom: 40px;
   }
 }
