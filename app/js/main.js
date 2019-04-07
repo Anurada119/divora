@@ -2,12 +2,13 @@ $(document).ready(function () {
 
   AOS.init();
 
-  $('.responsive').slick({
-    dots: true,
+  $('.projects-slider').slick({
+    dots: false,
     infinite: false,
     speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: true,
     responsive: [
       {
         breakpoint: 1024,
