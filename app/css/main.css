@@ -722,13 +722,13 @@ footer .social-links li:last-child {
   color: #EA993A;
 }
 
-.about-service .about-service-img {
+.about-service-img {
   width: 100%;
   min-height: 300px;
   overflow: hidden;
 }
 
-.about-service .about-service-img img {
+.about-service-img img {
   width: 100%;
   height: 100%;
 }
@@ -1022,5 +1022,218 @@ footer .social-links li:last-child {
   .info-header a {
     margin-bottom: 0;
     padding: 0;
+  }
+
+  .services-hero {
+    height: 50vh;
+  }
+
+  .services-hero .main-section {
+    padding-bottom: 30px;
+  }
+
+  .page-banner img {
+    width: auto;
+    height: 100%;
+    min-height: 100%;
+  }
+
+  .banner-info {
+    padding: 16px !important;
+  }
+
+  .banner-info .service-icon {
+    width: 80px;
+  }
+
+  .banner-info .service-icon img {
+    width: 100%;
+  }
+
+  .banner-info h1 {
+    font-size: 32px;
+    padding: 20px 0 10px;
+  }
+
+  .banner-info h3 {
+    font-size: 20px;
+  }
+
+  .banner-info p {
+    font-size: 14px;
+  }
+
+  .para-right-pad {
+    padding-right: 15px;
+  }
+
+  .para-left-pad {
+    padding-left: 15px;
+  }
+
+  .about-service {
+    background: #EA993A;
+    padding: 40px 0;
+  }
+
+  .about-service h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .about-service .special-para {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+
+  .about-service .btn {
+    background: #fff;
+    color: #EA993A;
+  }
+
+  .about-service-img {
+    width: 100%;
+    min-height: auto;
+    padding: 30px 0;
+  }
+
+  .service-projects {
+    padding: 30px 0 20px;
+  }
+
+  .service-projects .para-right-pad {
+    padding-right: 0px;
+  }
+
+  .service-projects .para-left-pad {
+    padding-left: 0px;
+  }
+
+  .service-projects h2 {
+    font-size: 24px;
+    padding: 30px 0 10px;
+  }
+
+  .service-projects h2 span {
+    color: #EA993A;
+  }
+
+  .service-projects p {
+    line-height: 2;
+  }
+
+  .about-services-projects {
+    padding: 0;
+  }
+
+  .about-services-projects .projects .card-img {
+    height: 160px;
+  }
+
+  .about-services-projects .projects-slider .centered {
+    padding: 0 0 20px 0;
+  }
+
+  .about-services-projects .projects-slider .centered p {
+    padding: 0 16px;
+    font-size: 12px;
+  }
+
+  .about-services-projects .projects-slider .centered h4 {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .how-we-do {
+    margin-top: 80px;
+    padding: 60px 0 0px;
+    background: #F5F5F5;
+  }
+
+  .how-we-do h3 {
+    font-size: 24px;
+  }
+
+  .how-we-do p {
+    font-size: 12px;
+  }
+
+  .how-we-do .about-service-img {
+    padding: 0;
+  }
+
+  .comments {
+    padding: 60px 0;
+  }
+
+  .comments .comment-wrap {
+    width: 60%;
+  }
+
+  .comments h3 {
+    font-size: 24px;
+  }
+
+  .comments h6 {
+    font-size: 12px;
+    line-height: 1.8;
+    font-weight: 300;
+  }
+
+  .comments .comment-by {
+    font-size: 16px;
+  }
+
+  .comments .slick-next {
+    right: -75px;
+  }
+
+  .comments .slick-prev {
+    left: -75px;
+  }
+
+  .blog-posts-external {
+    padding: 50px 0 30px;
+  }
+
+  .blog-posts-external h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .blog-posts-external h3 span {
+    color: #EA993A;
+  }
+
+  .blog-posts-external .about-services-inner {
+    padding: 20px 0 20px;
+  }
+
+  .service-1 .service-name {
+    color: #EA993A;
+  }
+
+  .service-1 .btn {
+    background: #EA993A;
+  }
+
+  .service-2 .service-name {
+    color: #529BF0;
+  }
+
+  .service-2 .btn {
+    background: #529BF0;
+  }
+
+  .service-3 .service-name {
+    color: #19C3D6;
+  }
+
+  .service-3 .btn {
+    background: #19C3D6;
   }
 }

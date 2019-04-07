@@ -662,6 +662,9 @@ footer {
     font-weight: 500;
 }
 
+//services page -----------------------------------------------------------------------
+
+
 .services-hero{
     height: 40vh;
     overflow: hidden;
@@ -741,18 +744,20 @@ footer {
         color: $service-color-1;
     }
 
-    .about-service-img{
-        width: 100%;
-        min-height: 300px;
-        overflow: hidden;
-
-        img{
-            width: 100%;
-            height: 100%;
-        }
-    }
+    
 
     
+}
+
+.about-service-img{
+    width: 100%;
+    min-height: 300px;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .service-projects{
@@ -1055,5 +1060,239 @@ footer {
     .info-header a{
         margin-bottom: 0;
         padding: 0;
+    }
+
+
+    // service ccss -----------------------------------------------------------
+
+    .services-hero{
+        height: 50vh;
+    
+        .main-section{
+            padding-bottom: 30px;
+        }
+    }
+    
+    .page-banner{
+        img{
+            width: auto;
+            height: 100%;
+            min-height: 100%;
+        }
+    
+        
+    }
+    
+    .banner-info{
+        padding: 16px !important;
+
+        .service-icon{
+            width: 80px;
+
+            img{
+                width: 100%;
+            }
+        }
+    
+        h1{
+            font-size: 32px;
+            padding: 20px 0 10px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+    
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .para-right-pad{
+        padding-right: 15px;
+    }
+
+    .para-left-pad{
+        padding-left: 15px;
+    }
+    
+    .about-service{
+        background: $service-color-1;
+        padding: 40px 0;
+    
+        h3{
+            font-weight: 600;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            font-size: 24px;
+        }
+    
+        .special-para{
+            color: $white;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.7;
+        }
+    
+        .btn{
+            background: $white;
+            color: $service-color-1;
+        }
+    
+        
+    
+        
+    }
+    
+    .about-service-img{
+        width: 100%;
+        min-height: auto;
+        padding: 30px 0;
+    }
+
+    
+    .service-projects{
+        padding: 30px 0 20px;
+
+        .para-right-pad{
+            padding-right: 0px;
+        }
+    
+        .para-left-pad{
+            padding-left: 0px;
+        }
+    
+        h2{
+            font-size: 24px;
+            padding: 30px 0 10px;
+            span{
+                color: $service-color-1;
+            }
+        }
+    
+        p{
+            line-height: 2;
+        }
+    }
+    
+    .about-services-projects{
+        padding: 0;
+        .projects{
+            .card-img{
+                height: 160px;
+            }
+        }
+    
+        .projects-slider .centered{
+            padding: 0 0 20px 0;
+    
+            p{
+                padding: 0 16px;
+                font-size: 12px;
+            }
+    
+            h4{
+                padding: 10px;
+                font-size: 20px;
+            }
+        }
+    
+    
+    }
+    
+    .how-we-do{
+        margin-top: 80px;
+        padding: 60px 0 0px;
+        background: #F5F5F5;
+
+        h3{
+            font-size: 24px;
+        }
+
+        p{
+            font-size: 12px;
+        }
+
+        .about-service-img{
+            padding: 0;
+        }
+    }
+    
+    .comments{
+        padding: 60px 0;
+
+        .comment-wrap{
+            width: 60%;
+        }
+    
+        h3{
+            font-size: 24px;
+        }
+    
+        h6{
+            font-size: 12px;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+    
+        .comment-by{
+            font-size: 16px;
+        }
+    
+        .slick-next{
+            right: -75px;
+        }
+    
+        .slick-prev{
+            left: -75px;
+        }
+    
+
+    }
+    
+    .blog-posts-external{
+        padding: 50px 0 30px;
+    
+        h3{
+            margin-bottom: 20px;
+            font-size: 24px;
+            span{
+                color: $service-color-1;
+            }
+        }
+    
+        .about-services-inner{
+            padding: 20px 0 20px;
+        }
+    }
+    
+    .service-1{
+        .service-name{
+            color: $service-color-1;
+        }
+    
+        .btn{
+            background: $service-color-1;
+        }
+    }
+    
+    .service-2{
+        .service-name{
+            color: $service-color-2;
+        }
+    
+        .btn{
+            background: $service-color-2;
+        }
+    }
+    
+    .service-3{
+        .service-name{
+            color: $service-color-3;
+        }
+    
+        .btn{
+            background: $service-color-3;
+        }
     }
 }
