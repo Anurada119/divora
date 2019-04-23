@@ -301,6 +301,17 @@ p {
   min-height: 100%;
 }
 
+.bg-boxes .background:hover img {
+  transform: scale(1.3);
+  transform-origin: center;
+  transition: transform 2s;
+}
+
+.bg-boxes .background:hover:after {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
 .bg-boxes .background:after {
   content: '';
   background: rgba(44, 44, 44, 0.7);
@@ -316,6 +327,7 @@ p {
 .bg-boxes img {
   height: 100%;
   width: 100%;
+  transition: transform 2s;
 }
 
 .bg-boxes .service-name,
@@ -352,10 +364,11 @@ p {
 
 .card {
   border: none;
+  transition: transform .2s;
 }
 
 .card-body {
-  padding: 20px 15px;
+  padding: 20px 0px;
 }
 
 .card-img {
@@ -365,6 +378,13 @@ p {
 .card-img img {
   min-width: 100%;
   height: 100%;
+  transition: transform 2s;
+}
+
+.card-img:hover img {
+  transform: scale(1.3);
+  transform-origin: center;
+  transition: transform 2s;
 }
 
 .davora-ent {
@@ -906,6 +926,10 @@ footer .social-links li:last-child {
   padding: 20px 0 20px;
 }
 
+.blog-posts-external .about-services-inner .card-body {
+  padding: 20px 0 !important;
+}
+
 .service-1 .service-name {
   color: #EA993A;
 }
@@ -1074,6 +1098,10 @@ footer .social-links li:last-child {
 
   .abt-divora-ent h3, .abt-divora-ent p {
     padding: 0;
+  }
+
+  .davora-ent {
+    padding: 100px 0 0 0;
   }
 
   .about-services-inner > div {

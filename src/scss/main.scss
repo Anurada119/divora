@@ -319,6 +319,19 @@ p {
         min-height: 100%;
         //top: -15%;
 
+        &:hover{
+            img{
+                transform: scale(1.3);
+                transform-origin: center;
+                transition: transform 2s;
+            }
+
+            &:after{
+                opacity: 0;
+                transition: opacity 2s;
+            }
+        }
+
         &:after {
             content: '';
             background: rgba($color: #2C2C2C, $alpha: 0.7);
@@ -335,6 +348,7 @@ p {
     img {
         height: 100%;
         width: 100%;
+        transition: transform 2s;
     }
 
     .service-name,
@@ -372,10 +386,20 @@ p {
 
 .card {
     border: none;
+    transition: transform .2s;
+    // &:hover{
+    //     .card-img{
+    //         img{
+    //             transform: scale(1.3);
+    //             transform-origin: center;
+    //             transition: transform .2s;
+    //         }
+    //     }
+    // }
 }
 
 .card-body {
-    padding: 20px 15px;
+    padding: 20px 0px;
 }
 
 .card-img {
@@ -383,6 +407,14 @@ p {
     img {
         min-width: 100%;
         height: 100%;
+        transition: transform 2s;
+    }
+    &:hover{
+        img{
+            transform: scale(1.3);
+            transform-origin: center;
+            transition: transform 2s;
+        }
     }
 }
 
@@ -931,6 +963,10 @@ footer {
 
     .about-services-inner{
         padding: 20px 0 20px;
+
+        .card-body{
+            padding: 20px 0 !important;
+        }
     }
 }
 
